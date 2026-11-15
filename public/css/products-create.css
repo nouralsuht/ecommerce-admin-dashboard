@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { max-width: 720px; margin: 0 auto; padding: 48px 24px; background: #f6f8fc; color: #243047; font: 15px/1.6 "Segoe UI", Arial, sans-serif; }
+h1 { margin: 0 0 8px; font-size: 32px; letter-spacing: -1px; }
+a { display: inline-block; color: #3159ca; font-weight: 600; text-decoration: none; margin-bottom: 24px; }
+a:hover { text-decoration: underline; }
+form { padding: 32px; background: white; border: 1px solid #e4e9f2; border-radius: 16px; box-shadow: 0 8px 32px #24304706; }
+label { display: block; margin: 0 0 8px; font-weight: 600; font-size: 14px; }
+input { display: block; width: 100%; padding: 12px 14px; margin-bottom: 24px; border: 1px solid #cbd5e3; border-radius: 8px; font: inherit; background: #fbfcff; color: #243047; }
+input:focus { outline: 3px solid #dce5ff; border-color: #4265d4; background: white; }
+button { display: block; width: 100%; padding: 13px 20px; border: 0; border-radius: 8px; background: #3658be; color: white; font: inherit; font-weight: 600; cursor: pointer; }
+button:hover { background: #2848a4; }
+button:active { background: #203b8b; }
+a:focus-visible, button:focus-visible { outline: 3px solid #7698ff; outline-offset: 4px; }
+.validation-errors { padding: 18px 24px 18px 40px; margin: 0 0 24px; background: #fff0f0; border: 1px solid #f2c9c9; border-left: 4px solid #c43c3c; border-radius: 10px; color: #9b2626; font-size: 14px; }
+.validation-errors li + li { margin-top: 6px; }
+@media (max-width: 500px) { body { padding: 28px 16px; } form { padding: 24px 20px; } h1 { font-size: 28px; } }

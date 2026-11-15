@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+body { margin: 0 auto; max-width: 1100px; padding: 48px 24px; background: #f6f8fc; color: #243047; font-family: "Segoe UI", Arial, sans-serif; line-height: 1.6; }
+h1 { margin: 0 0 12px; font-size: 32px; letter-spacing: -1px; }
+a { display: inline-block; margin-bottom: 24px; color: #3159ca; font-weight: 600; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus-visible { outline: 3px solid #3159ca; outline-offset: 4px; }
+table { width: 100%; border-collapse: collapse; background: white; box-shadow: 0 4px 24px #2430470a; }
+th, td { padding: 16px; border-bottom: 1px solid #e5eaf2; text-align: left; }
+th { background: #eaf0fb; color: #40516d; font-size: 13px; }
+tr:hover td { background: #eff6ff; }
+.out-of-stock, .low-stock, .in-stock { display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 13px; font-weight: 700; }
+.out-of-stock { color: #a52424; background: #ffeded; }
+.low-stock { color: #855000; background: #fff3d6; }
+.in-stock { color: #17653c; background: #e5f6ec; }
+@media (max-width: 600px) { body { padding: 24px 12px; } h1 { font-size: 26px; } th, td { padding: 10px 6px; font-size: 12px; } .out-of-stock, .low-stock, .in-stock { padding: 3px 6px; font-size: 11px; } }
+/* Product actions and feedback */
+.product-count { color: #6a7890; margin: 0 0 16px; }
+.success-message { background: #e5f6ec; color: #17653c; border: 1px solid #b9e3cb; border-left: 4px solid #258352; padding: 14px 18px; border-radius: 10px; margin: 16px 0; font-weight: 600; }
+.table-container { overflow-x: auto; border: 1px solid #e1e7f0; border-radius: 12px; background: white; }
+table { min-width: 620px; }
+td form { display: inline-block; margin: 0; }
+.delete-button { border: 1px solid #f0c5c5; border-radius: 7px; padding: 8px 14px; background: #fff0f0; color: #aa2929; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; }
+.delete-button:hover { background: #aa2929; border-color: #aa2929; color: white; }
+.delete-button:focus-visible { outline: 3px solid #d88989; outline-offset: 3px; }
+td[colspan] { padding: 36px 20px; text-align: center; color: #6a7890; }
